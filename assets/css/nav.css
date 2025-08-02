@@ -1,6 +1,6 @@
 nav {
   display: flex;
-  padding: 3rem 1rem 0.5rem 1rem;
+  padding: 2rem 1rem 0.5rem 1rem;
   justify-content: space-between;
   align-items: center;
   align-self: stretch;
@@ -26,4 +26,36 @@ nav {
   font-size: 1.5rem;
   padding: 0.75rem;
   transition: ease-in-out 0.3s;
+}
+
+@media screen and (min-width: 481px) {
+  nav {
+    padding: 2rem 2rem 0.5rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  nav {
+    padding: 1rem 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  nav {
+    padding: 1rem 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .nav-menu {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+
+  .nav-menu-item {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 400;
+  }
 }
