@@ -19,8 +19,46 @@
 .about-skills-item {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   gap: 0.25rem;
   padding: 0.5rem 0.75rem;
   border: 1px solid var(--color-primary);
   border-radius: 1rem;
+}
+
+@media screen and (min-width: 481px) {
+  #about {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #about {
+    padding: 2rem 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #about {
+    padding: 1rem 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #about {
+    padding: 2rem 7.5rem;
+    gap: 1rem;
+  }
+  .about-skills {
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    padding-top: 2rem;
+  }
+
+  .about-skills-item {
+    gap: 0.5rem;
+    padding: 0.85rem 1.5rem;
+    flex: 1 0 0;
+  }
 }

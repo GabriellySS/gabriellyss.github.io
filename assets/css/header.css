@@ -10,6 +10,10 @@ header h1 {
   color: var(--color-text);
 }
 
+#header-h1 {
+  display: none;
+}
+
 header h1 span {
   color: var(--color-primary);
 }
@@ -19,4 +23,78 @@ header p {
   font-size: 0.875rem;
   font-style: italic;
   font-weight: 500;
+}
+
+.header-btns {
+  display: flex;
+}
+
+.btn {
+  height: 3.25rem;
+  padding: 0.625rem;
+  border: 1px solid var(--color-primary);
+  border-radius: 1.625rem;
+  background: transparent;
+  color: var(--color-primary);
+  font-style: italic;
+  cursor: pointer;
+  width: 100%;
+}
+
+.contact-btn {
+  display: none;
+}
+
+@media screen and (min-width: 481px) {
+  header {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  header {
+    padding: 2rem 3rem;
+    gap: 0.75rem;
+  }
+
+  #header-h1 {
+    display: block;
+  }
+
+  #header-h1-mobile {
+    display: none;
+  }
+
+  .header-btns {
+    gap: 0.5rem;
+  }
+
+  .btn {
+    width: 10rem;
+  }
+
+  .contact-btn {
+    display: inline;
+    border: none;
+    font-style: normal;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  header {
+    padding: 1rem 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  header {
+    height: 100vh;
+  }
+
+  header p {
+    color: var(--color-primary);
+    font-size: 1.25rem;
+    font-style: italic;
+    font-weight: 500;
+  }
 }

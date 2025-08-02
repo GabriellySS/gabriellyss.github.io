@@ -7,3 +7,27 @@ footer p {
   color: var(--color-subtle);
   font-style: italic;
 }
+
+@media screen and (min-width: 481px) {
+  footer {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  footer {
+    padding: 2rem 3rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  footer {
+    padding: 2rem 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  #contact {
+    padding: 3rem 7.5rem;
+  }
+}

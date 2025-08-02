@@ -8,3 +8,30 @@
 #contact p span {
   font-weight: 600;
 }
+
+@media screen and (min-width: 481px) {
+  #contact {
+    padding: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  #contact {
+    padding: 2rem 3rem;
+  }
+
+  .email-btn {
+    width: 20rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  #contact {
+    padding: 1rem 7.5rem;
+  }
+}
+@media screen and (min-width: 1200px) {
+  #contact {
+    padding: 2rem 7.5rem;
+  }
+}
