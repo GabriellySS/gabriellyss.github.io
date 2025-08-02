@@ -1,0 +1,22 @@
+header {
+  display: flex;
+  padding: 2rem 1rem;
+  flex-direction: column;
+  gap: 0.5rem;
+  justify-content: center;
+}
+
+header h1 {
+  color: var(--color-text);
+}
+
+header h1 span {
+  color: var(--color-primary);
+}
+
+header p {
+  color: var(--color-primary);
+  font-size: 0.875rem;
+  font-style: italic;
+  font-weight: 500;
+}

@@ -1,0 +1,10 @@
+#contact {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  padding: 2rem 1rem;
+}
+
+#contact p span {
+  font-weight: 600;
+}
