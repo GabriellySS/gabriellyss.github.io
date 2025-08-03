@@ -11,6 +11,7 @@
   --color-text: #fefdfb;
   --color-primary: #0abab5;
   --color-subtle: #545455;
+  --color-border-nav: #252525;
 }
 
 :root[data-theme="light"] {
@@ -18,6 +19,11 @@
   --color-text: #1b1c1e;
   --color-primary: #1f827c;
   --color-subtle: #c5c5c4;
+  --color-border-nav: #f2f2f2;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 h1,
@@ -58,6 +64,11 @@ li {
   line-height: 1.5rem;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-text);
+}
+
 body {
   background: var(--color-bg);
   font-family: "Inter", sans-serif;
@@ -67,12 +78,23 @@ body {
 .social-icons {
   display: flex;
   gap: 1.5rem;
+  padding: 0.5rem 0;
 }
 
 .social-icons i {
   cursor: pointer;
   font-size: 1.5rem;
-  padding: 0.75rem 0;
+}
+
+.social-icons i:hover {
+  color: var(--color-primary);
+  transition: ease-in-out 0.3s;
+}
+
+#about,
+#projects,
+#contact {
+  scroll-margin-top: 90px;
 }
 
 @media screen and (min-width: 1200px) {

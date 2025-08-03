@@ -27,7 +27,13 @@ footer p {
 }
 
 @media screen and (min-width: 1200px) {
-  #contact {
+  footer {
     padding: 3rem 7.5rem;
+  }
+}
+
+@media screen and (min-width: 1440px) {
+  footer {
+    padding: 3rem 15rem;
   }
 }
