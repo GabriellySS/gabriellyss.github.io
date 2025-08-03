@@ -1,48 +1,51 @@
-# 🧑‍💻 Desafio 7 — Portfólio Pessoal Front-End
+# [🌐 Portfólio Pessoal Front-End](https://gabriellyss.github.io/)
 
-## 📘 Descrição
+Este repositório contém o código-fonte do meu portfólio como desenvolvedora Front-End.
 
-Neste desafio do Bootcamp Santander - Trilha Front-End, o objetivo foi criar um **portfólio pessoal** do zero ou a partir de um projeto base.  
-Foi uma oportunidade para aplicar tudo o que aprendi ao longo do bootcamp, unindo **estrutura HTML, estilização com CSS, interatividade com JavaScript e boas práticas de versionamento no GitHub**.
+O projeto foi desenvolvido como parte da minha jornada de estudos em desenvolvimento web. Aqui, aplico conhecimentos em **HTML**, **CSS** e princípios de **design responsivo** para apresentar meus projetos, habilidades e trajetória profissional de forma organizada e visualmente agradável.
 
-O projeto permite expressar criatividade, identidade visual e apresentar os demais projetos de forma profissional.
-
----
-
-## 🎯 Objetivos
-
-- Reproduzir e/ou melhorar um projeto existente com base no código do instrutor.
-- Aplicar conceitos de **semântica, responsividade, interatividade e acessibilidade**.
-- Documentar decisões técnicas no `README.md`.
-- Hospedar e versionar o projeto com GitHub.
+> 💡 Este portfólio foi inicialmente estruturado durante o Bootcamp Santander Front-End na plataforma DIO.
 
 ---
 
 ## 🛠 Tecnologias utilizadas
 
-- HTML5
-- CSS3
-- JavaScript
-- Figma (para prototipação do layout)
-- Git e GitHub
-- GitHub Pages (para deploy)
+- HTML5  
+- CSS3  
+- JavaScript (para interatividade)  
+- Figma (para prototipação visual)  
+- Git e GitHub  
+- GitHub Pages (para hospedagem)
+
+---
+
+## 🎯 Objetivos
+
+- Criar uma identidade visual própria.
+- Demonstrar habilidades técnicas com HTML, CSS e JavaScript.
+- Apresentar os projetos desenvolvidos de forma acessível e responsiva.
+- Utilizar boas práticas de organização e versionamento.
+
+---
+
+## 📐 Link do protótipo no Figma
+
+👉 [Protótipo no Figma](https://www.figma.com/design/CIyH7ddsHlXICUUvDaBHIt/portfolio?node-id=0-1&p=f&t=TKNdgsT2lpvjdOz2-0)
 
 ---
 
 ## 📸 Prévia do Projeto
 
-_Adicione aqui uma imagem ou screenshot do portfólio_  
-Ex:  
-<img width="1440" alt="image" src="portfolio/preview.png" />
+<img width="auto" height="auto" alt="image" src="https://github.com/user-attachments/assets/992dfeae-6e7f-4d5b-94e0-b02bc594dd37" />
 
 ---
 
-## 🌐 Como visualizar
+## 🌐 Como acessar
+Acesse a versão publicada do portfólio em:
 
-Você pode acessar o portfólio online neste link:  
-[👉 Acesse meu portfólio aqui](https://seu-usuario.github.io/portfolio/)
+[gabriellyss.github.io](https://gabriellyss.github.io/)
 
-## 💙 Considerações finais
+---
 
-Este foi o desafio mais aberto e criativo até agora, onde pude reunir os conhecimentos técnicos desenvolvidos durante o bootcamp e também reforçar minha identidade visual como profissional de front-end.
-Mais do que um exercício, esse projeto é a vitrine da minha jornada na tecnologia 🚀
+## ✨ Considerações finais
+Este portfólio representa minha evolução e dedicação ao front-end. Ele será continuamente atualizado conforme eu avançar com novos projetos e conhecimentos.
