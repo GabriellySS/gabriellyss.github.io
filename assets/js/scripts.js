@@ -34,3 +34,21 @@ navMenuItems.forEach((item) => {
     item.classList.add("active");
   });
 });
+
+// Adiciona a classe visible aos elementos com a classe fade-scroll quando eles entram na viewport
+const elements = document.querySelectorAll(".fade-scroll");
+
+const observer = new IntersectionObserver(
+  (entries) => {
+    entries.forEach((entry) => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add("visible");
+      }
+    });
+  },
+  {
+    threshold: 0.1,
+  }
+);
+
+elements.forEach((el) => observer.observe(el));

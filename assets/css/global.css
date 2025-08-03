@@ -22,6 +22,31 @@
   --color-border-nav: #f2f2f2;
 }
 
+body > * {
+  opacity: 0;
+  transform: translateX(-30px);
+  animation: fadeInUp 1s ease forwards;
+  animation-delay: 0.3s;
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.fade-scroll {
+  opacity: 0;
+  transform: translateX(-30px);
+  transition: opacity 0.6s ease, transform 0.6s ease;
+}
+
+.fade-scroll.visible {
+  opacity: 1;
+  transform: translateX(0);
+}
+
 html {
   scroll-behavior: smooth;
 }
