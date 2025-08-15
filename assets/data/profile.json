@@ -1,0 +1,46 @@
+{
+  "skills": {
+    "fronEndSkills": [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "Git",
+      "Github"
+    ],
+    "designSkills": [
+      "Photoshop",
+      "Illustrator",
+      "InDesign",
+      "Figma"
+    ],
+    "softSkills": [
+      "Curiosidade",
+      "Trabalho em equipe",
+      "Organização"
+    ]
+  },
+  
+  "portfolio": [
+    {
+      "name": "Pokedex",
+      "description":"Uma Pokédex desenvolvida com HTML, CSS e JavaScript puro, que consome a PokeAPI para exibir detalhes sobre os Pokémons da primeira geração.",
+      "urlPrevia": "https://pokedex-one-iota-15.vercel.app/index.html",
+      "urlRepositorio": "https://github.com/GabriellySS/pokedex",
+      "github": true
+    },
+    {
+      "name": "Clone site do Discord",
+      "description":"Uma landing page responsiva criada com base no layout do Discord, reproduzida a partir de um modelo no Figma, com atenção aos detalhes visuais e responsividade.",
+      "urlPrevia": "https://bootcamp-santander-frontend-eosin.vercel.app/layout-responsivo-site-discord/",
+      "urlRepositorio": "https://github.com/GabriellySS/bootcamp-santander-frontend/tree/main/layout-responsivo-site-discord",
+      "github": true
+    },
+    {
+      "name": "Classificador Nível de Herói",
+      "description":"Um programa em JavaScript que classifica o nível de um herói com base em sua XP, com interface personalizada criada com HTML, CSS e protótipo no Figma.",
+      "urlPrevia": "https://bootcamp-santander-frontend-eosin.vercel.app/classificador-nivel-heroi/",
+      "urlRepositorio": "https://github.com/GabriellySS/bootcamp-santander-frontend/tree/main/classificador-nivel-heroi",
+      "github": true
+    }
+  ]
+}
